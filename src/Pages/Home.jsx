@@ -6,9 +6,8 @@ const Home = () => {
           <span className="text-[#EB0029]">Flex </span>Feet
         </h1>
         <h4 className="tet-lg text-slate-500">
-          Modify the structure as you want
-        </h4>
-        <h4 className="tet-lg text-slate-500"> ~ Tamanna Tahsin ~</h4>
+          website loading
+        </h4>    
       </div>
     </div>
   );

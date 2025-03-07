@@ -3,13 +3,14 @@ import logoImg from "../../../assets/logo/logo.png";
 import { IoIosSearch } from "react-icons/io";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { FaCartArrowDown } from "react-icons/fa6";
+import SemiNav from "./SemiNav";
 
 const Navbar = () => {
   return (
     <Container>
       <div className="p-5">
-        <div className="flex justify-between items-center">
-          <div className="w-[60%] flex items-center justify-center gap-3">
+        <div className="flex items-center justify-between">
+          <div className="flex w-[60%] items-center justify-center gap-3">
             <div>
               <img src={logoImg} className="w-[100px]" alt="" />
             </div>
@@ -40,6 +41,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      <SemiNav />
     </Container>
   );
 };
