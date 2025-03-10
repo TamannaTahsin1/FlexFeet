@@ -5,7 +5,8 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import { FaCartArrowDown } from "react-icons/fa6";
 import SemiNav from "./SemiNav";
 
-const Navbar = () => {
+const 
+Navbar = () => {
   return (
     <Container>
       <div className="p-5">

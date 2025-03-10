@@ -18,9 +18,12 @@ import img17 from '../../../assets/collections/thekhwaab.jpg';
 import img18 from '../../../assets/collections/zouk_icon.jpg';
 
 const Collections = () => {
+    const imgs = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18];
     return (
-        <div className='p-5'>
-            
+        <div className='p-5 flex justify-center gap-2'>
+            {
+                imgs.map((img, index) => <img key={index} className='size-24 rounded-full' src={img} alt="" />)
+            }
         </div>
     );
 };
