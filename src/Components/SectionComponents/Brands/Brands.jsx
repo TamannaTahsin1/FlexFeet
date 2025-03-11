@@ -16,7 +16,7 @@ import img14 from "../../../assets/brands/vans.jpg";
 import img15 from "../../../assets/brands/yeezy.jpg";
 const Brands = () => {
   return (
-    <div className=" pt-10 pb-40">
+    <div className=" pt-10 pb-20">
       <Marquee>
         <div className="flex justify-center gap-10">
           <img className="size-24" src={img1} alt="" />
